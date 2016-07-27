@@ -1,8 +1,8 @@
-FFTW_INC = /Users/scott/include
-FFTW_LIB = /Users/scott/lib
+FFTW_INC = /usr/local/include
+FFTW_LIB = /usr/local/lib
 
 test: main.cpp
-	g++ -I$(FFTW_INC) -L$(FFTW_LIB) -lfftw3 main.cpp -o testSRH.exe
+	g++ -I$(FFTW_INC) -L$(FFTW_LIB) -lfftw3 main.cpp -o testMCS.exe
 
 clean:
 	rm *.exe

@@ -8,7 +8,7 @@ using namespace std;
 int main(){
 
     // This is the line that needs attention
-    ifstream file ("scottsComp/config.txt");
+    ifstream file ("marksComp/config.txt");
 
     string txt;
     if( file.good() ){
