@@ -29,6 +29,7 @@ int main(){
 
     cout << txt << endl;
     cout << "Some more stuff was added to main" << endl;
+    cout << "Yet another thing" << endl;
 
     // Definitely should have closed the file
     file.close();
