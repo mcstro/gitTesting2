@@ -25,7 +25,10 @@ int main(){
     }
 
     // Can we find the fftw lib?
-    fftw_complex *in;
+    fftw_complex *derp;
+    fftw_plan p;
+    int N = 32;
+    derp = (fftw_complex*) fftw_malloc(sizeof(fftw_complex) *N );
 
     cout << txt << endl;
     cout << "Some more stuff was added to main" << endl;
@@ -33,6 +36,9 @@ int main(){
 
     // Definitely should have closed the file
     file.close();
+
+    //fftw_destroy_plan(p);
+    fftw_free(derp);
     
     
     return 0;
