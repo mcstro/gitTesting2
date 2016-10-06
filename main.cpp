@@ -25,6 +25,9 @@ int main(){
     }else{
         txt = "Couldn't find file";
     }
+    
+    // Here's a line of code that Scott will never see
+    cout << "Scott suxxxx! lol\n";
 
     // Can we find the fftw lib?
     fftw_complex *derp;
