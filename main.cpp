@@ -8,7 +8,7 @@ using namespace std;
 
 int main(){
 
-    int a = 4;
+    int a = 8;
     cout << 2*a << endl;
     // This is the line that needs attention
     ifstream file ("scottsComp/config.txt");
